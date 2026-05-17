@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background:url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.coustom_container{
+    width: 770px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#time{
+    font-weight: 700;
+    color: #bb9598;
+}
+#time span{
+    color: #bb9598;
+    font-size: 50px;
+    font-weight: 700;
+}
+#date{
+    color: #b97672;
+    font-weight: 500;
+}
+#day{
+    color: #b97672;
+    font-weight: 400;
+}
